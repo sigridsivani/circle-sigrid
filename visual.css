@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color:plum
+}
+
+div {
+    border: 2px, dashed, red;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+}
+
+p {
+    border: 2px, dotted, orangered;
+    background-color: greenyellow
+}
+
+/* inline tags */
+
+strong {
+    border: 2px, solid, orange;
+}
+
+small {
+    border: 2px, solid, yellow;
+    background-color: chocolate;
+}
+
+time {
+    border: 2px, solid, greenyellow;
+    background-color: chocolate;
+}
+
+sup {
+    border: 2px, solid, green;
+    background-color: chocolate;
+}
+
+button {
+    border: 2px, solid, cyan;
+    background-color:chocolate;
+    font-size: 24px
+
+}
+
+b {
+    border: 2px, solid, lightblue;
+    background-color: chocolate;
+
+}
+
+i {
+    border: 2px, solid, mediumblue;
+    background-color: chocolate;
+
+}
+
+time {
+    border: 2px, solid, ;
+    background-color: chocolate;
+
+}
+
+code {
+    border: 2px, solid, red;
+    background-color: plum;
+
+}
+
+span {
+    border: 2px, solid, red;
+    background-color: plum;
+
+}
