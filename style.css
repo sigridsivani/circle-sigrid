@@ -1,14 +1,19 @@
 
 body {
-    background-color:#000000
+    background-color:#131F29
    
 
 }
+
 h1 {
     text-align: center;
 
     color: rgb(144, 166, 255);
 } 
+
+h2{
+    color: rgb(120, 199, 120)
+}
  p{
     color: rgb(144, 166, 255);
     text-align: center;
@@ -27,10 +32,10 @@ h1 {
 .image{
 
     border: 2px dotted rgb(144, 166, 255);
-    display: flex;
-    justify-content: center; 
-    align-content: center;
-    height: 25vh; 
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 img {
@@ -38,16 +43,19 @@ img {
     height: auto;
 }
 
-.like_button{
-    background-color: #ff4d4d;
+#like-button{
+    background-color: #c280ff;
     color:whitesmoke;
     font-size: 16px; 
     font-weight: bold; 
-    padding: 10px 20px; 
+    padding: 3px 15px; 
     border: none; 
     border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
+
+
+}
+.active {
+    background: rgb(78, 107, 67)
     
 
 
