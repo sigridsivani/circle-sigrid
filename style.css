@@ -1,0 +1,54 @@
+
+body {
+    background-color:#000000
+   
+
+}
+h1 {
+    text-align: center;
+
+    color: rgb(144, 166, 255);
+} 
+ p{
+    color: rgb(144, 166, 255);
+    text-align: center;
+ }
+
+.header{
+    color: rgb(144, 166, 255);
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 550px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image{
+
+    border: 2px dotted rgb(144, 166, 255);
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    height: 25vh; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.like_button{
+    background-color: #ff4d4d;
+    color:whitesmoke;
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+
+
+}
