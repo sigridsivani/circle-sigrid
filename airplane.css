@@ -7,7 +7,7 @@ body{
     background-position-y: 0,1px;
 }
 
-body.active{
+.active{
     background-image: url(sky.jpg);
     background-size: cover;
     background-position: center;

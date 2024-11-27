@@ -1,0 +1,68 @@
+
+body {
+    background-color:#8dcbff
+   
+
+}
+
+h1 {
+    text-align: center;
+
+    color: rgb(144, 166, 255);
+
+}
+.container{
+    color: rgb(144, 166, 255);
+    position:absolute;
+    text-align: center;
+    left: 688px;
+    top: 185px;
+    line-height: 2.9;
+    white-space: nowrap;
+    color: rgb(112, 114, 156);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+    
+ }
+
+.header{
+    color: rgb(144, 166, 255);
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 550px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image{
+
+    border: 2px dotted rgb(144, 166, 255);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#like-button{
+    background-color: #cfb7e7;
+    color:whitesmoke;
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 2px 10px; 
+    border: none; 
+    border-radius: 20px;
+
+
+}
+.active {
+    background: rgb(255, 183, 233)
+    
+
+
+}
