@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(runway.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 0,1px;
+}
+
+body.active{
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 0,1px;
+}
+
+h1{
+
+    color: rgb(103, 168, 206);
+    text-align: center;
+
+
+}
+
+.container{
+
+    position: relative;
+    display: inline-block;
+
+}
+.background{
+    position: fixed;
+    right: 53%;
+    width: 300px;
+}
+
+
+.text{
+    position:absolute;
+    text-align: center;
+    left: 688px;
+    top: 185px;
+    line-height: 2.9;
+    white-space: nowrap;
+    color: rgb(112, 114, 156);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+}
+
+#take-off-button{
+    position: fixed;
+    right:47.6%;
+    bottom: 78%;
+}
+
+
