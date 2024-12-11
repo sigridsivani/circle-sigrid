@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+html{
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(48, 39, 65, 0.944);
+
+
+}
+h1{
+    color:rgb(89, 62, 94);
+    text-align: center;
+    font-family: 'Metamorphous', sans-serif;
+    align-items: center;
+    border-radius: 20;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+
+    
+}
+
+.header{
+    background-color: rgba(150, 189, 240, 0.745);
+    padding: 10px;
+    border-radius: 20px;
+
+
+    
+
+}
+
+
+
+.info{
+    position: relative;
+    width: 55%;
+    display: inline-block;
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
+.hewncity-image{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    opacity: 50%;
+    box-shadow: 8px 8px #2b292ca4;
+    margin-left: 55px;
+
+
+
+}
+
+.hewncity-text{
+    position: absolute;
+    width: 700px;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10;
+    font-family: 'Metamorphous', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+.special-font{
+    font-family: 'Tangerine', cursive;
+    color: rgb(211, 247, 255);
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+.font2{
+    font-family: 'EB Garamond', serif;
+    line-height: 1.3;
+    color: rgb(255, 243, 228);
+    font-size: 18px;
+
+}

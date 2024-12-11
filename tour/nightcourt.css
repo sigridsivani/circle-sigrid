@@ -1,0 +1,89 @@
+
+body{
+    background-color: #382f44;;
+}
+
+.mapnov {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    scale: 95%;
+    border: 5px solid #382f44;
+    border-radius: 40px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+
+}
+.map-container area{
+    cursor: url(cursor.png), pointer;
+}
+#rhysandfeyre1{
+    width: 39%;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: -162px;
+    margin-top: 8%;
+    z-index: 10;
+    
+}
+#rhysandfeyre2{
+    width: 37%;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 10%;
+    z-index: 10;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+
+
+}
+#rhysandfeyre2:hover{
+    transform: translate(18px, -8px);
+    filter: drop-shadow(0px 10px 15px rgba(20, 20, 20, 0.5));
+}
+
+#vbutton{
+    position: absolute;
+    top: 10%;
+    left: 10%; 
+    z-index: 1000; 
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    transform-origin: center;
+    
+    
+    
+
+}
+.spin {
+    animation: spin-animation 0.5s ease-in-out;
+}
+@keyframes spin-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#mapv {
+    position: absolute;
+    top: 57%;
+    left: 24.7%;
+    width: 12.3%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    
+    
+
+}
+#mapv.active {
+    display: block;
+    opacity: 1;
+}
+
+.active {
+    background-color: #333;
+    color: #fff;
+}

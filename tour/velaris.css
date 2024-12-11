@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+html{
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(46, 72, 132, 0.79);
+
+
+}
+h1{
+    color:rgb(254, 249, 158);
+    text-align: center;
+    font-family: 'Metamorphous', sans-serif;
+    align-items: center;
+    border-radius: 20;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+
+    
+}
+
+.header{
+    background-color: rgb(75, 47, 146);
+    padding: 10px;
+    border-radius: 20px;
+
+
+    
+
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+#rhys1{
+    width: 45%;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 320px;
+    z-index: 10;
+}
+#rhys2{
+    width: 45%;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 955px;
+    margin-top: 320px;
+    z-index: 10;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+
+}
+#rhys2:hover{
+    transform: translate(18px, -8px);
+    filter: drop-shadow(0px 10px 15px rgba(20, 20, 20, 0.5));
+}
+.info{
+    position: relative;
+    width: 55%;
+    display: inline-block;
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
+.velaris-image{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    opacity: 50%;
+    box-shadow: 8px 8px #2b292ca4;
+
+
+
+}
+
+.velaris-text{
+    position: absolute;
+    width: 630px;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10;
+    font-family: 'Metamorphous', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+.special-font{
+    font-family: 'Princess Sofia', cursive;
+    color: rgb(153, 136, 157);
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+.font2{
+    font-family: 'EB Garamond', serif;
+    line-height: 1.3;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
